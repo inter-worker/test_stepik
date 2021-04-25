@@ -13,7 +13,7 @@ def calc(x):
 try: 
     link = "http://suninjuly.github.io/explicit_wait2.html"
     browser = webdriver.Chrome()
-    browser.implicitly_wait(5)
+    #browser.implicitly_wait(5)
     browser.get(link)
     time.sleep(2)
     text = WebDriverWait(browser, 12).until(
